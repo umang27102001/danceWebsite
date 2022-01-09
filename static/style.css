@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    top: 0px;
+
+    background: black;
+    padding: 6px;
+    min-width: 56px;
+    left: 0px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#navbar ul li {
+    list-style: none;
+    margin: 6px;
+    /* width: 96px;
+    height: 29px; */
+    text-align: center;
+}
+#nav1{
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 67%;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+
+    color: white;
+    
+
+}
+
+#navbar li:first-child{
+    border-left: 2px solid silver;
+    border-radius: 0px;
+    
+}
+.email {
+    width: 60%;
+    max-width: 512px;
+    height: 59px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#emailbtn {
+    width: 33%;
+    height: 59px;
+    max-width: 188px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #ffff;
+    border: none;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel {
+    position: relative;
+
+}
+
+.introSection{
+    
+/* background-color: tomato; */
+height: 567px;
+width: 100%;
+display: flex;
+/* position: absolute; */
+top: 0px;
+left: 0px;
+justify-content: center;
+margin-bottom: 1px;
+align-items: center;
+
+font-size: 3rem;
+font-weight: bold;
+flex-direction: column;
+color: white;
+padding-bottom: 50px;
+}
+.intro1{
+background: url('c1.jpg')no-repeat center center/cover ;
+}
+.intro2{
+background: url('c2.jpg')no-repeat center center/cover ;
+}
+.intro3{
+background: url('c3.jpeg')no-repeat center center/cover ;
+}
+.small{
+    text-align: center;
+}
+
+.introSection div{      font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 2.7rem;
+    color: silver;
+    margin: 12px 0px;
+}
+ 
+.introSection .small{
+    font-size: 2rem;
+}
+
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    color: silver;
+ font-size: 50px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  
+}
+
+#navbar li a:hover{
+   transition: 0.2s;
+    color: #d30000;
+}
+#featureSection{
+    background-color: black;
+    padding: 47px 0px;
+    margin-bottom: 1px;
+    height: 700px;
+   margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.card {
+    border-radius: 10px;
+ 
+    border:1px solid #d90429;
+    width: 30%;
+    margin: 24px 17px;
+    height: 200px;
+    background: black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.02);
+    background-color: #d90429;
+    border:none;
+    box-shadow: 0px 5px 5px silver;
+    transition: 0.4s;
+    
+}
+.card-box{
+    display: flex;
+
+    align-items: center;
+    
+    
+}
+.card-box img{
+    width: 112px;
+    filter: invert(1);
+    
+}
+.card-cont{
+    text-align: center;
+    font-size: 19px;
+    color: silver;
+    
+}
+h3{
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+ margin-bottom: 22px;   
+ color: silver;
+}
+
+#logo{
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#logo img{
+    width: 35px;
+    margin: 7px;
+    filter: invert(1);
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spn img {
+    width: 137px;
+    margin: 33px;
+}
+#sponsorSection{
+    height: 600px;
+        background-color: #082548;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+        padding: 13px;
+    
+}
+img[alt="sony"]{
+    filter: invert(1);
+}
+#footer{
+    text-align: center;
+
+    color:white;
+    background-color: black;
+ margin-top: 1px;
+ margin-bottom: 1px;
+    
+}
+
+
+
+p{
+    font-size: 1.1rem;
+}
+footer p{
+    margin-bottom: 0px;
+}
+
+
+@media (max-width:1050px){
+    
+    .card{
+        width: 360px;
+    }
+    #featureSection{
+        height: 100%;
+    }
+    #navbar li:first-child{
+        border-left: none;
+
+        border-radius: 0px;
+        
+    }
+    .spn{
+        flex-direction: column;
+    }
+    #sponsorSection{
+        height: 100%;
+    }
+
+}

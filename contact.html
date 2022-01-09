@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="static/style2.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul style="padding-left: 0;">
+            <div id="logo"> <img src="/static/logo.png" />UDA</div>
+            <ul id="nav1" style="padding-left: 0px;">
+              <li><a href="/" style="padding-left: 11px;">Home</a> </li>
+              <li><a href="/">About</a> </li>
+              <li><a href="/">Services</a> </li>
+              <li><a href="/">Class Info</a></li>
+              <li><a href="/contact" target="_blank">Contact Us</a> </li>
+            </ul>
+          </ul>
+      </nav>
+    <div id="form">
+        <h1>Contact Us</h1>
+        <form action="/contact" method="post" class="frm">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="Address" id="Address" placeholder="Enter your Address">
+            <input type="Email" name="Email" id="Email" placeholder="Enter your Email">
+            <input ttype="text" name="contact_number" id="contact-number" placeholder="Enter your contact-number">
+            <input type="number" name="age" id="age" placeholder="Enter your age">
+            <button class="btn">Submit</button> 
+        </form>
+    </div>
+    <footer id="footer">
+        <div id="logo"> <img src="/static/logo.png" />UDA </div>
+        <p>Copyright &copy; all rights are reserved under Umang Kanchan | umang'sdanceacaemy@gmail.com </p>
+      </footer>
+</body>
+</html>
